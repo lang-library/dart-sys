@@ -2,6 +2,7 @@ name: sys
 description: "sys package project"
 version: 0.0.1
 homepage:
+repository: https://github.com/lang-library/dart-sys
 
 environment:
   sdk: ^3.7.2
