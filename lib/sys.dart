@@ -4,6 +4,12 @@ import 'dart:io' as io;
 import 'dart:typed_data';
 import 'package:path/path.dart' as path;
 
+bool get isInDebugMode {
+  bool inDebugMode = false;
+  assert(inDebugMode = true);
+  return inDebugMode;
+}
+
 String? getenv(String $name) {
   return io.Platform.environment[$name];
 }
